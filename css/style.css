@@ -1,0 +1,155 @@
+.top-bar {
+    background: #191E32;
+    border-bottom: 3px solid #8E3FD6;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+.btn-1, .branded-btn{
+    color: #fff;
+    background: linear-gradient(to right, #7a31f4, #9d30fd);
+    font-weight: 300;
+    padding: 7px 20px;
+    border: none;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.button{
+    border:none;
+    color:#fff;
+    background: linear-gradient(to right, #7a31f4, #9d30fd);
+    padding: 7px 20px;
+    text-align: center;
+    width:50%;
+    border-radius:5px;
+}
+
+.button:hover{
+    background:#7a31f4;
+    color:white;
+}
+li {
+    color:white;
+    font-family:Metropolis;
+    font-size:16px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-right:20px;
+}
+
+
+.header-holder {
+    background: #fff;
+    padding: 50px 0;
+    text-align:center;
+    font-family:Butler;
+    flex-wrap: wrap;
+}
+
+.header-holder p{
+    text-align:center;
+    font-family:Metropolis;
+    font-size: 18px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+.card-holder{
+    background: #191F32;
+    padding: 50px 0;
+    font-family:Metropolis;
+    flex-wrap: wrap;
+}
+
+.label{
+    margin-top:20px;
+    font-size:16px;
+    font-weight:500;
+}
+
+.form-check img{
+    float:right;
+    width:40px;
+    height:40px;
+}
+
+.form-check{
+   border:1px solid #c4c4c4;
+   background:#fff;
+   border-radius:5px;
+   margin-top:20px;
+   height:60px;
+}
+
+.form-check img{
+    margin-top:10px;
+}
+
+.robot{
+    padding-top:15px;
+}
+.line{
+    border: 2px solid #A832FB;
+    width:25%;
+    margin:auto;
+}
+.image{
+    width:100%;
+    margin-top:100px;
+}
+
+.form-control{
+    font-size:15px;
+    border-radius:5px;
+}
+
+.card{
+    background-color: #E8EEFF;
+}
+.media{
+    margin-right:0px;
+    padding-left:0px;
+}
+
+.media li{
+    display:inline;
+    padding-right:20px;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5rem 1rem;
+    background:#191F32;
+}
+
+.footer p{
+    color:white;
+    font-family:Metropolis;
+}
+
+
+
+.captcha{
+    width:40px;
+    height:40px;
+}
+
+
+
+
